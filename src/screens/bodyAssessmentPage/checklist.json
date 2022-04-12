@@ -1,0 +1,149 @@
+ {
+    "questions": [
+    {
+      "id": "4ce92a94-7272-44f0-3a7e-08d88c6a1830",
+      "name": "Are you experiencing any of the following symptoms?",
+      "type": 1,
+      "order": 1,
+      "isMultiOption": true,
+      "terminateOnError": false,
+      "errorMessage": "I certify that the imformation submitted in this report is true and correct to the best of my knowledge.",
+      "checklistQuestionMultiOptions": [
+        {
+          "id": "6c0d282c-cd19-464b-17bb-08d88c6a3ed1",
+          "name": "Fever",
+          "order": 1,
+          "type": 2
+        },
+        {
+          "id": "1dd1ac66-64fb-4f7c-17bc-08d88c6a3ed1",
+          "name": "Shortness of breath or new worsening cough",
+          "order": 2,
+          "type": 2
+        },
+        {
+          "id": "9522a158-131b-4c80-17bd-08d88c6a3ed1",
+          "name": "Runny noze, sneezing, Nazal congestion",
+          "order": 3,
+          "type": 2
+        },
+        {
+          "id": "25c16a2f-0e50-4ee3-17be-08d88c6a3ed1",
+          "name": "Sore throat or difficulty swallowing",
+          "order": 4,
+          "type": 2
+        },
+        {
+          "id": "0bb1a9ae-31f4-4818-17bf-08d88c6a3ed1",
+          "name": "Diarrhea, Nausea, vomiting or abdominal pain",
+          "order": 5,
+          "type": 2
+        },
+        {
+          "id": "85af9d25-63c5-4238-17c0-08d88c6a3ed1",
+          "name": "Loss of sense of taste or smell",
+          "order": 6,
+          "type": 2
+        },
+        {
+          "id": "3c346c92-c8f3-45a3-17c1-08d88c6a3ed1",
+          "name": "No symptoms",
+          "order": 7,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "737f950e-a75f-4d00-3a7f-08d88c6a1830",
+      "name": "Have you had close contact or exposure to a person known to be infected with V-19 in the past 14 days or someone who has been tested?",
+      "type": 1,
+      "order": 2,
+      "isMultiOption": true,
+      "terminateOnError": false,
+      "errorMessage": "",
+      "checklistQuestionMultiOptions": [
+        {
+          "id": "137fc3d9-b243-4fce-17c2-08d88c6a3ed1",
+          "name": "Yes",
+          "order": 1,
+          "type": 2
+        },
+        {
+          "id": "311d9309-53f2-4529-17c3-08d88c6a3ed1",
+          "name": "No",
+          "order": 2,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "8dc3b9af-8a1a-4f39-3a80-08d88c6a1830",
+      "name": "Have you been tested for COVID-19 with the results still pending or have you been diagnosed with COVID-19?",
+      "type": 1,
+      "order": 3,
+      "isMultiOption": true,
+      "terminateOnError": false,
+      "errorMessage": "",
+      "checklistQuestionMultiOptions": [
+        {
+          "id": "23b574a3-5cd3-4d95-17c4-08d88c6a3ed1",
+          "name": "Yes",
+          "order": 1,
+          "type": 2
+        },
+        {
+          "id": "a2d31401-b62f-4c04-17c5-08d88c6a3ed1",
+          "name": "No",
+          "order": 2,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "57de83e6-4b9a-4cb0-3a81-08d88c6a1830",
+      "name": "Have you travelled outside of Canada in the past 14 days?",
+      "type": 1,
+      "order": 4,
+      "isMultiOption": true,
+      "terminateOnError": false,
+      "errorMessage": "",
+      "checklistQuestionMultiOptions": [
+        {
+          "id": "471c75ec-6497-48fc-17c6-08d88c6a3ed1",
+          "name": "Yes",
+          "order": 1,
+          "type": 2
+        },
+        {
+          "id": "49263600-9e87-4471-17c7-08d88c6a3ed1",
+          "name": "No",
+          "order": 2,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "11054529-5268-4fc7-3a82-08d88c6a1830",
+      "name": "Are you over the age of 18?",
+      "type": 1,
+      "order": 5,
+      "isMultiOption": true,
+      "terminateOnError": false,
+      "errorMessage": "",
+      "checklistQuestionMultiOptions": [
+        {
+          "id": "571c75ec-6497-48fc-17c6-08d88c6a3ed1",
+          "name": "Yes",
+          "order": 1,
+          "type": 1
+        },
+        {
+          "id": "39263600-9e87-4471-17c7-08d88c6a3ed1",
+          "name": "No",
+          "order": 2,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}
